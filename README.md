@@ -10,11 +10,11 @@ Passenger users can perform the following operations without authentication:
 - Search for a train by number.
 
 Employee-type users can perform the following operations after authentication:
-❖ All operations allowed to passenger users;
-❖ CRUD operations regarding the persistence of trains and tickets sold;
-❖ Selling a ticket to a traveler;
-❖ Viewing statistics related to tickets sold: percentages by departure station, destination, price using graphs (radial structure, ring structure, column type, etc.);
-❖ Save reports / lists with information about trains in several formats: csv, json.
+- All operations allowed to passenger users;
+- CRUD operations regarding the persistence of trains and tickets sold;
+- Selling a ticket to a traveler;
+- Viewing statistics related to tickets sold: percentages by departure station, destination, price using graphs (radial structure, ring structure, column type, etc.);
+- Save reports / lists with information about trains in several formats: csv, json.
 
 Administrator users can perform the following operations after authentication:
-❖ CRUD operations for information related to employee-type users.
+- CRUD operations for information related to employee-type users.
