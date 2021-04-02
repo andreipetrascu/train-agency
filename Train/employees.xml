@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="12.0.2" class="java.beans.XMLDecoder">
+ <object class="model.Employees" id="Employees0">
+  <void property="employees">
+   <void method="add">
+    <object class="model.Employee">
+     <void property="email">
+      <string>petrascuandrei@yahoo.com</string>
+     </void>
+     <void property="name">
+      <string>Andrei Petrascu</string>
+     </void>
+     <void property="password">
+      <string>admin</string>
+     </void>
+     <void property="role">
+      <string>admin</string>
+     </void>
+     <void property="username">
+      <string>admin</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="model.Employee">
+     <void property="email">
+      <string>eduard_gh2021@hotmail.uk</string>
+     </void>
+     <void property="name">
+      <string>Eduard Ghiurutan</string>
+     </void>
+     <void property="password">
+      <string>normal</string>
+     </void>
+     <void property="role">
+      <string>normal</string>
+     </void>
+     <void property="username">
+      <string>normal</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="model.Employee">
+     <void property="email">
+      <string>mihai_constantinescu@yahoo.com</string>
+     </void>
+     <void property="name">
+      <string>Mihai Constantin</string>
+     </void>
+     <void property="password">
+      <string>1234</string>
+     </void>
+     <void property="role">
+      <string>normal</string>
+     </void>
+     <void property="username">
+      <string>mconstantin</string>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>

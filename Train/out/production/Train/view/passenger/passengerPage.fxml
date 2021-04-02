@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="backAP" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="858.0" prefWidth="1293.0" style="-fx-background-color: #596d83; -fx-background-radius: 5;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.passenger.GUIPassenger">
+   <children>
+      <AnchorPane fx:id="leftAP" prefHeight="858.0" prefWidth="330.0" style="-fx-background-color: #304965;">
+         <children>
+            <ComboBox fx:id="startCB" layoutX="57.0" layoutY="209.0" prefHeight="29.0" prefWidth="217.0" promptText="start station" style="-fx-background-color: #97a4b2; -fx-background-radius: 30;" />
+            <ComboBox fx:id="stopCB" layoutX="57.0" layoutY="265.0" prefHeight="29.0" prefWidth="217.0" promptText="stop station" style="-fx-background-color: #97a4b2; -fx-background-radius: 30;" />
+            <ComboBox fx:id="durationCB" layoutX="57.0" layoutY="368.0" prefHeight="29.0" prefWidth="217.0" promptText="duration" style="-fx-background-color: #97a4b2; -fx-background-radius: 30;" />
+            <ComboBox fx:id="priceCB" layoutX="57.0" layoutY="423.0" prefHeight="29.0" prefWidth="217.0" promptText="price" style="-fx-background-color: #97a4b2; -fx-background-radius: 30;" />
+            <ComboBox fx:id="seatsCB" layoutX="57.0" layoutY="479.0" prefHeight="29.0" prefWidth="217.0" promptText="free seats" style="-fx-background-color: #97a4b2; -fx-background-radius: 30;" />
+            <Button fx:id="searchB" layoutX="57.0" layoutY="696.0" mnemonicParsing="false" onAction="#handleSearchButton" prefHeight="29.0" prefWidth="217.0" style="-fx-background-color: #97a4b2; -fx-background-radius: 30;" text="search " textFill="WHITE" />
+            <ComboBox fx:id="nrCB" layoutX="57.0" layoutY="119.0" prefHeight="29.0" prefWidth="217.0" promptText="number" style="-fx-background-color: #97a4b2; -fx-background-radius: 30;" />
+         </children></AnchorPane>
+
+      <AnchorPane fx:id="rightAP" layoutX="963.0" prefHeight="858.0" prefWidth="330.0" style="-fx-background-color: #97a4b2;">
+         <children>
+            <Label layoutX="83.0" layoutY="185.0" text="from our agency?" textFill="#304965">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="userTF" layoutX="57.0" layoutY="328.0" prefHeight="29.0" prefWidth="217.0" promptText="username" style="-fx-background-color: #ffffff; -fx-background-radius: 30;" />
+            <TextField fx:id="passwordTF" layoutX="57.0" layoutY="373.0" prefHeight="29.0" prefWidth="217.0" promptText="password" style="-fx-background-color: #ffffff; -fx-background-radius: 30;" />
+            <Button fx:id="loginB" layoutX="57.0" layoutY="479.0" mnemonicParsing="false" onAction="#handleLoginButton" prefHeight="29.0" prefWidth="217.0" style="-fx-background-color: #304965; -fx-background-radius: 30;" text="login" textFill="WHITE" />
+            <CheckBox fx:id="checkBox" layoutX="61.0" layoutY="554.0" mnemonicParsing="false" text="I accept the terms and conditions" textFill="WHITE" />
+         </children></AnchorPane>
+
+      <Label layoutX="569.0" layoutY="14.0" text="Train Agency" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font></Label>
+      <TableView fx:id="tableT" editable="true" layoutX="358.0" layoutY="113.0" prefHeight="482.0" prefWidth="579.0" style="-fx-background-color: #ffffff; -fx-background-radius: 10;">
+        <columns>
+          <TableColumn fx:id="nrCo" prefWidth="72.0" text="number" />
+          <TableColumn fx:id="startCo" prefWidth="119.0" text="start station" />
+            <TableColumn fx:id="stopCo" prefWidth="133.0" text="stop station" />
+            <TableColumn fx:id="durationCo" prefWidth="74.0" text="duration" />
+            <TableColumn fx:id="priceCo" prefWidth="86.0" text="price" />
+            <TableColumn fx:id="freeCo" prefWidth="94.0" text="free seats" />
+        </columns>
+      </TableView>
+      <Pane layoutX="544.0" layoutY="772.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #213346; -fx-background-radius: 30;" />
+      <Pane layoutX="622.0" layoutY="772.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #213346; -fx-background-radius: 30;" />
+      <Pane layoutX="699.0" layoutY="772.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #213346; -fx-background-radius: 30;" />
+   </children>
+</AnchorPane>

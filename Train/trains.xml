@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="12.0.2" class="java.beans.XMLDecoder">
+ <object class="model.Trains" id="Trains0">
+  <void property="trainList">
+   <void method="add">
+    <object class="model.Train">
+     <void property="duration">
+      <int>4</int>
+     </void>
+     <void property="number">
+      <int>1024</int>
+     </void>
+     <void property="price">
+      <float>45.5</float>
+     </void>
+     <void property="seats">
+      <int>117</int>
+     </void>
+     <void property="startLoc">
+      <string>Ilva-Mica</string>
+     </void>
+     <void property="stopLoc">
+      <string>Cluj-Napoca</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="model.Train">
+     <void property="duration">
+      <int>5</int>
+     </void>
+     <void property="number">
+      <int>3527</int>
+     </void>
+     <void property="price">
+      <float>100.0</float>
+     </void>
+     <void property="seats">
+      <int>96</int>
+     </void>
+     <void property="startLoc">
+      <string>Pitesti</string>
+     </void>
+     <void property="stopLoc">
+      <string>Constanta</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="model.Train">
+     <void property="duration">
+      <int>3</int>
+     </void>
+     <void property="number">
+      <int>1082</int>
+     </void>
+     <void property="price">
+      <float>50.6</float>
+     </void>
+     <void property="seats">
+      <int>24</int>
+     </void>
+     <void property="startLoc">
+      <string>Sangeorz-Bai</string>
+     </void>
+     <void property="stopLoc">
+      <string>Cluj-Napoca</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="model.Train">
+     <void property="duration">
+      <int>21</int>
+     </void>
+     <void property="number">
+      <int>4985</int>
+     </void>
+     <void property="price">
+      <float>600.0</float>
+     </void>
+     <void property="seats">
+      <int>62</int>
+     </void>
+     <void property="startLoc">
+      <string>Arad</string>
+     </void>
+     <void property="stopLoc">
+      <string>Iasi</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="model.Train">
+     <void property="duration">
+      <int>1</int>
+     </void>
+     <void property="number">
+      <int>6456</int>
+     </void>
+     <void property="price">
+      <float>12.0</float>
+     </void>
+     <void property="seats">
+      <int>46</int>
+     </void>
+     <void property="startLoc">
+      <string>Arad</string>
+     </void>
+     <void property="stopLoc">
+      <string>Timisoara</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="model.Train">
+     <void property="duration">
+      <int>9</int>
+     </void>
+     <void property="number">
+      <int>5544</int>
+     </void>
+     <void property="price">
+      <float>130.9</float>
+     </void>
+     <void property="seats">
+      <int>10</int>
+     </void>
+     <void property="startLoc">
+      <string>Pitesti</string>
+     </void>
+     <void property="stopLoc">
+      <string>Cluj-Napoca</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="model.Train">
+     <void property="duration">
+      <int>6</int>
+     </void>
+     <void property="number">
+      <int>4574</int>
+     </void>
+     <void property="price">
+      <float>78.0</float>
+     </void>
+     <void property="seats">
+      <int>19</int>
+     </void>
+     <void property="startLoc">
+      <string>Brasov</string>
+     </void>
+     <void property="stopLoc">
+      <string>Timisoara</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="model.Train">
+     <void property="duration">
+      <int>11</int>
+     </void>
+     <void property="number">
+      <int>9806</int>
+     </void>
+     <void property="price">
+      <float>211.9</float>
+     </void>
+     <void property="seats">
+      <int>51</int>
+     </void>
+     <void property="startLoc">
+      <string>Arad</string>
+     </void>
+     <void property="stopLoc">
+      <string>Bucuresti</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="model.Train">
+     <void property="duration">
+      <int>9</int>
+     </void>
+     <void property="number">
+      <int>3466</int>
+     </void>
+     <void property="price">
+      <float>213.6</float>
+     </void>
+     <void property="startLoc">
+      <string>Cluj-Napoca</string>
+     </void>
+     <void property="stopLoc">
+      <string>Arad</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="model.Train">
+     <void property="duration">
+      <int>14</int>
+     </void>
+     <void property="number">
+      <int>1991</int>
+     </void>
+     <void property="price">
+      <float>300.0</float>
+     </void>
+     <void property="seats">
+      <int>88</int>
+     </void>
+     <void property="startLoc">
+      <string>Suceava</string>
+     </void>
+     <void property="stopLoc">
+      <string>Bucuresti</string>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
