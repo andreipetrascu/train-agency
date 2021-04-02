@@ -1,7 +1,8 @@
 # train-agency
 
 Application description:
-Develop (analyze, design, implement) a desktop application that can be used by a train ticket booking agency.
+
+Desktop application that can be used by a train ticket booking agency.
 The application will have 3 types of users: passenger, employee and administrator.
 
 Passenger users can perform the following operations without authentication:
@@ -13,7 +14,7 @@ Employee-type users can perform the following operations after authentication:
 - All operations allowed to passenger users;
 - CRUD operations regarding the persistence of trains and tickets sold;
 - Selling a ticket to a traveler;
-- Viewing statistics related to tickets sold: percentages by departure station, destination, price using graphs (radial structure, ring structure, column type, etc.);
+- Viewing statistics related to tickets sold: percentages by departure station, destination, price using graphs;
 - Save reports / lists with information about trains in several formats: csv, json.
 
 Administrator users can perform the following operations after authentication:
